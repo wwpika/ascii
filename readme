@@ -8,8 +8,7 @@ args = parser.parse_args() 获取参数
 
 gray = int(0.2126 * r + 0.7152 * g + 0.0722 * b) 将像素值转变为数值，颜色越暗的，数值越小，黑色为0，颜色越暗的，数值越大，白色为255
 
-Image.getpixel(xy) 获得x,y对应的坐标处，某个像素的像素值
-
+Image.getpixel(xy) 获得x,y对应的坐标处，某个像素的像素值，该方法属于pillow库
 
 #字符画输出到文件
 if OUTPUT:

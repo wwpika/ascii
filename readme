@@ -1,4 +1,5 @@
 # ascii\
+python2.7
 用python将一张图片转变成字符画
 
 argparse模块:命令行解析工具
